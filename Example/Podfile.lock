@@ -1,0 +1,16 @@
+PODS:
+  - DPresentManager (0.1.0)
+
+DEPENDENCIES:
+  - DPresentManager (from `../`)
+
+EXTERNAL SOURCES:
+  DPresentManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DPresentManager: 29a72ee28066d2fe3babff821348adff24419fac
+
+PODFILE CHECKSUM: 75561541a8b247d6819fc05aaa3d70399b5bb7bf
+
+COCOAPODS: 1.9.1

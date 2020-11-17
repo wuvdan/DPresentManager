@@ -1,0 +1,6 @@
+framework module DPresentManager {
+  umbrella header "DPresentManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

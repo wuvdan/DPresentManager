@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48214DE1256289290030DB98 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48214DDF256289290030DB98 /* OneViewController.m */; };
+		48214DE2256289290030DB98 /* OneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48214DE0256289290030DB98 /* OneViewController.xib */; };
+		48214DEF2562895E0030DB98 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48214DED2562895E0030DB98 /* TwoViewController.m */; };
+		48214DF02562895E0030DB98 /* TwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48214DEE2562895E0030DB98 /* TwoViewController.xib */; };
 		52227F3BF5B2EED6761759BF /* Pods_DPresentManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95355E55239B36C3211B2AA /* Pods_DPresentManager_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,8 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2ECE67DF4B9540288ADB08A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2ECE67DF4B9540288ADB08A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		41D4A09A60FD02455AED26F8 /* Pods_DPresentManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DPresentManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48214DDE256289290030DB98 /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		48214DDF256289290030DB98 /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		48214DE0256289290030DB98 /* OneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OneViewController.xib; sourceTree = "<group>"; };
+		48214DEC2562895E0030DB98 /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		48214DED2562895E0030DB98 /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		48214DEE2562895E0030DB98 /* TwoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoViewController.xib; sourceTree = "<group>"; };
 		4A8DE58E87FA4E2E8F49C704 /* Pods-DPresentManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPresentManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-DPresentManager_Example/Pods-DPresentManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DPresentManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPresentManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,9 +74,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B95355E55239B36C3211B2AA /* Pods_DPresentManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DPresentManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0A54F916DBC91845EA712A /* Pods-DPresentManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPresentManager_Example.release.xcconfig"; path = "Target Support Files/Pods-DPresentManager_Example/Pods-DPresentManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DAF98920E175D7745FD9B9B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DAF98920E175D7745FD9B9B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DE07611536640FEE6BEEC288 /* Pods-DPresentManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPresentManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DPresentManager_Tests/Pods-DPresentManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E67AE3917173C81A66068372 /* DPresentManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DPresentManager.podspec; path = ../DPresentManager.podspec; sourceTree = "<group>"; };
+		E67AE3917173C81A66068372 /* DPresentManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DPresentManager.podspec; path = ../DPresentManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +147,12 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* DViewController.h */,
 				6003F5A6195388D20070C39A /* DViewController.m */,
+				48214DEC2562895E0030DB98 /* TwoViewController.h */,
+				48214DED2562895E0030DB98 /* TwoViewController.m */,
+				48214DEE2562895E0030DB98 /* TwoViewController.xib */,
+				48214DDE256289290030DB98 /* OneViewController.h */,
+				48214DDF256289290030DB98 /* OneViewController.m */,
+				48214DE0256289290030DB98 /* OneViewController.xib */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +209,6 @@
 				DE07611536640FEE6BEEC288 /* Pods-DPresentManager_Tests.debug.xcconfig */,
 				820CF3CC7EB1765E6E8D6624 /* Pods-DPresentManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +263,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wuvdan;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 5TU5547C6N;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +276,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,7 +299,9 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				48214DF02562895E0030DB98 /* TwoViewController.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				48214DE2256289290030DB98 /* OneViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +388,8 @@
 				6003F59E195388D20070C39A /* DAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* DViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				48214DEF2562895E0030DB98 /* TwoViewController.m in Sources */,
+				48214DE1256289290030DB98 /* OneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +517,7 @@
 			baseConfigurationReference = 4A8DE58E87FA4E2E8F49C704 /* Pods-DPresentManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5TU5547C6N;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DPresentManager/DPresentManager-Prefix.pch";
 				INFOPLIST_FILE = "DPresentManager/DPresentManager-Info.plist";
@@ -510,6 +534,7 @@
 			baseConfigurationReference = BB0A54F916DBC91845EA712A /* Pods-DPresentManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5TU5547C6N;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DPresentManager/DPresentManager-Prefix.pch";
 				INFOPLIST_FILE = "DPresentManager/DPresentManager-Info.plist";

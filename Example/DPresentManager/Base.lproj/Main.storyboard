@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17700" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="k7v-0W-3PI">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Example-->
         <scene sceneID="wQg-tq-qST">
             <objects>
                 <viewController id="whP-gf-Uak" customClass="DViewController" sceneMemberID="viewController">
@@ -20,12 +18,82 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="38" translatesAutoresizingMaskIntoConstraints="NO" id="TV4-yk-jlj">
+                                <rect key="frame" x="71" y="250.5" width="233" height="166"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XIa-QI-NkN">
+                                        <rect key="frame" x="101.5" y="0.0" width="30" height="30"/>
+                                        <state key="normal" title="Top"/>
+                                        <connections>
+                                            <action selector="topButtonAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="eYH-Mh-xUs"/>
+                                        </connections>
+                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="SFy-0B-2qy">
+                                        <rect key="frame" x="0.0" y="68" width="233" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3fq-XI-RMe">
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                                <state key="normal" title="Left"/>
+                                                <connections>
+                                                    <action selector="leftButtonAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="cDU-B8-83o"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4O-Pa-Xo6">
+                                                <rect key="frame" x="90" y="0.0" width="47" height="30"/>
+                                                <state key="normal" title="Center"/>
+                                                <connections>
+                                                    <action selector="centerButtonAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="FxS-ds-CBg"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STW-9P-hIP">
+                                                <rect key="frame" x="197" y="0.0" width="36" height="30"/>
+                                                <state key="normal" title="Right"/>
+                                                <connections>
+                                                    <action selector="rigthButtonAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="YCg-iS-Ekz"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vfl-wq-S53">
+                                        <rect key="frame" x="91" y="136" width="51" height="30"/>
+                                        <state key="normal" title="Bottom"/>
+                                        <connections>
+                                            <action selector="bottomButtonAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="qe4-I4-GzJ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="TV4-yk-jlj" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="mKG-fp-dZu"/>
+                            <constraint firstItem="TV4-yk-jlj" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="puE-HV-hbz"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Example" id="bPI-bj-Mtj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="1204" y="432"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Lm2-HL-194">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="k7v-0W-3PI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0MT-P1-EFE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="whP-gf-Uak" kind="relationship" relationship="rootViewController" id="0D6-GT-IpN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KwL-17-6Tm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.80000000000001" y="432.23388305847078"/>
         </scene>
     </scenes>
 </document>
